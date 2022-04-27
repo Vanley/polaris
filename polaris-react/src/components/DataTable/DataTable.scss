@@ -163,14 +163,6 @@ $breakpoint: 768px;
   vertical-align: baseline;
 }
 
-.hoverable {
-  .Cell-hovered {
-    @include breakpoint-after($breakpoint) {
-      background: var(--p-surface-hovered);
-    }
-  }
-}
-
 .Icon {
   display: flex;
   align-self: flex-end;
@@ -347,6 +339,7 @@ $breakpoint: 768px;
     box-shadow: var(--p-shadow-base);
   }
 }
+
 .FixedFirstColumn {
   position: absolute;
 
