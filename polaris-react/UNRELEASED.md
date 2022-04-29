@@ -15,6 +15,7 @@ Use [the changelog guidelines](/documentation/Versioning%20and%20changelog.md) t
 - Added `customListId` prop to `Listbox` ([5627](https://github.com/Shopify/polaris/pull/5627))
 - Pass `domId` as an argument to `onActiveOptionChange` prop on `Listbox` ([5627](https://github.com/Shopify/polaris/pull/5627))
 - Adjusted a hardcoded `padding` value for `FileUpload` and replaced it with a spacing token ([#5675](https://github.com/Shopify/polaris/pull/5675))
+- Added new FullscreenBar component which provides a uniformly styled Back button to exit Fullscreen mode. ([#5688](https://github.com/Shopify/polaris/pull/5688))
 
 ### Bug fixes
 
