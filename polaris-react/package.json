@@ -47,6 +47,7 @@
   "scripts": {
     "build": "node ./scripts/build.js",
     "dev": "yarn run storybook",
+    "clean": "rm -rf .turbo node_modules build build-internal",
     "gen-media-queries": "node ./scripts/gen-media-queries.js",
     "prepublishOnly": "yarn run build",
     "start": "serve ./build-internal/storybook/static -l ${PORT:=6006}",
